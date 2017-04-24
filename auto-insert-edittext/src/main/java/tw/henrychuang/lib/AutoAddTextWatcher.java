@@ -1,4 +1,4 @@
-package tw.henrychuang.autoinsertedittext;
+package tw.henrychuang.lib;
 
 import android.text.Editable;
 import android.text.TextWatcher;

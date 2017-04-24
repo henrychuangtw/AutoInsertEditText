@@ -1,7 +1,7 @@
 package tw.henrychuang.autoinsertedittext;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.EditText;
@@ -9,6 +9,8 @@ import android.widget.EditText;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import tw.henrychuang.lib.AutoAddTextWatcher;
 
 public class MainActivity extends AppCompatActivity {
     private EditText mEditText_creditCard, mEditText_multiChars, mEditText_birthday;
